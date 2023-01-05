@@ -63,8 +63,6 @@ async def start_(client: Client, message: Message):
 ☞ **✰I'am.. [Music Player Bot](https://t.me/{BOT_USERNAME}) !**
 
 🂱 **I Can Play Music In Your Group.Feel free to add me to your groups.!**
-
-🔖 **Powered By:- [𐏓〬⃝ ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ Official ➣LOG⛦ AFK xͮD ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ ااـ꯭](https://t.me/Official_afk_xD)!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
