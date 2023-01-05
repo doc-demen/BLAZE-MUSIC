@@ -56,49 +56,32 @@ async def _human_time_duration(seconds):
 @Client.on_message(
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
-async def start_(c: Client, message: Message):
-    user_id = message.from_user.id
-    BOT_NAME = (await c.get_me()).first_name
-    if await is_gbanned_user(user_id):
-        await message.reply_text("❗️ **You've blocked from using this bot!**")
-        return
-    await message.reply_text(
-        f""" **☞ ✰Hello Friends.. ❣ {message.from_user.mention()} !**\n
-☞ ✰I'am.. [{BOT_NAME}](https://t.me/{BOT_USERNAME}) !
+async def start_(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/b8dd014a2cf7817df23a1.jpg",           
+        caption=f""" **☞ ✰Hello friends how are you !**\n
+☞ **✰I'am.. [Music Player Bot](https://t.me/{BOT_USERNAME}) !**
 
-💡 **Find Out All The Bot's Command And How They Work By Clicking On The » 📚 Commands Button!**
+🂱 **I Can Play Music In Your Group.Feel free to add me to your groups.!**
 
-🔖 **To Know How To Use This Bot, Please Click On The »❓Basic Guide Button!**
+🔖 **Powered By:- [𐏓〬⃝ ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ Official ➣LOG⛦ AFK xͮD ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ ااـ꯭](https://t.me/Official_afk_xD)!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "🔎 How to Use? Commands Menu.",
-                        callback_data="command_list",
-                    )
-                ], 
-                [            
-                    InlineKeyboardButton("📨 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),               
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✚ Add me to your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}"
-                    ),
-                    InlineKeyboardButton(
-                        "💡 About me", callback_data="user_guide"                  
-                    )                                                                       
+                    InlineKeyboardButton("👷🏻 Basic Cmd", callback_data="command_list"),
+                    InlineKeyboardButton("Basic Info 📚", callback_data="user_guide"),
+                ],[
+                    InlineKeyboardButton("👷🏻 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
+                    InlineKeyboardButton("Channel 👮🏼", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                ],[
+                    InlineKeyboardButton("Summon me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+              
                 ],
             ]
         ),
-        disable_web_page_preview=True,
-    )
-
+   )
+        
 
 @Client.on_message(
     command(["alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
