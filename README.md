@@ -1,4 +1,4 @@
-<h2 align= center><b>🎧 </Oꜰꜰʟɪɴᴇ> ‌[Luna] Music Player 🎧</b></h2>
+<h2 align= center><b>🎧 </Oꜰꜰʟɪɴᴇ> ‌[ᗷʟᴀᴢᴇ] Music Player 🎧</b></h2>
 <h4 align = center>A Powerful and Simple Telegram Bot<br> that can play songs & videos in Telegram group voice chats</h4>
 
 <p align='center'>
@@ -6,17 +6,6 @@
 <a href="https://github.com/Team-Bot2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a></p>
 
 <p align="center"><a href="https://t.me/Team_Bot_Support"><img src="https://telegra.ph/file/38ba5ae8821811016a349.jpg" height="300" width="310" alt="Music Player"></p>
-<p align="center">
-    <a href="https://www.codefactor.io/repository/github/levina-lab/video-stream"> <img src="https://www.codefactor.io/repository/github/levina-lab/video-stream/badge?color=red&logo=codacy&style=flat-square" alt="CodeFactor" /></a>
-    <a href="https://app.codacy.com/gh/levina-lab/video-stream/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a>
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/levina-lab/video-stream/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a><br>
-    <a href="https://github.com/levina-lab/video-stream"> <img src="https://img.shields.io/github/repo-size/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/commits/main"> <img src="https://img.shields.io/github/last-commit/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/issues"> <img src="https://img.shields.io/github/issues/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/forks/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-</p>
 
 ## Deployment
 Read the [Docs](https://levina.gitbook.io/videostreambot/deployment/requirements) for Detailed Information and Setup Guide on deploying Bot.
