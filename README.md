@@ -1,7 +1,11 @@
-<p align="center"><a href="https://t.me/VeezVideoBot"><img src="https://github.com/levina-lab/video-stream/raw/main/driver/veezlogo.png"></a></p>
-<p align="center">
-    <br><b>Video Stream is an Open-Source Telegram Bot project that's allow you to play Video & Music trough the Telegram Group Video Chat</b><br>
-</p>
+<h2 align= center><b>🎧 </Oꜰꜰʟɪɴᴇ> ‌[Luna] Music Player 🎧</b></h2>
+<h4 align = center>A Powerful and Simple Telegram Bot<br> that can play songs & videos in Telegram group voice chats</h4>
+
+<p align='center'>
+<a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue"></a>
+<a href="https://github.com/Team-Bot2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a></p>
+
+<p align="center"><a href="https://t.me/Team_Bot_Support"><img src="https://telegra.ph/file/38ba5ae8821811016a349.jpg" height="300" width="310" alt="Music Player"></p>
 <p align="center">
     <a href="https://www.codefactor.io/repository/github/levina-lab/video-stream"> <img src="https://www.codefactor.io/repository/github/levina-lab/video-stream/badge?color=red&logo=codacy&style=flat-square" alt="CodeFactor" /></a>
     <a href="https://app.codacy.com/gh/levina-lab/video-stream/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a>
@@ -48,8 +52,7 @@ Read the [Docs](https://levina.gitbook.io/videostreambot/deployment/requirements
 
 > Heroku has blacklisted this repository, That's why you get policy error message while pressing the Deploy Button. So the solution is you'll need to Fork this repo first and tap the Deploy Button from your forked repo. Click the fork button in the upper right corner next to the star button to fork this Repo.
 
-<h4>Click the button below to deploy Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/Official-afk-xD/blaze-music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250" alt="Deploy"></a></p>
 
 </details>
 
